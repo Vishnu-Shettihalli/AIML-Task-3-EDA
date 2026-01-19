@@ -1,0 +1,65 @@
+Exploratory Data Analysis on Iris & Netflix Datasets
+
+Objective:
+The objective of this task was to perform Exploratory Data Analysis (EDA) on two different datasets to understand data structure, feature behavior, and relationships before applying any machine learning techniques. The focus was on learning how data behaves through visualization, statistics, and logical interpretation.
+
+Datasets Used:
+
+1. Iris Dataset-
+Classic machine learning dataset
+Contains numerical measurements of iris flowers
+Target variable: species
+
+2. Netflix Movies and TV Shows Dataset-
+Real-world dataset representing streaming content
+Contains both categorical and numerical features
+Includes missing values and mixed data types
+
+Using two datasets helped understand how EDA differs between clean academic data and real-world industry data.
+
+Tools & Technologies:
+Python
+Pandas (data manipulation)
+Matplotlib & Seaborn (visualization)
+VS Code with Jupyter Notebook
+A reusable custom EDA utility module was created to perform common EDA tasks efficiently.
+
+Approach Followed:
+Common EDA Pipeline (Used for Both Datasets)
+Dataset loading and inspection
+Statistical summary of numerical features
+Visualization of distributions using histograms
+Analysis of categorical features using count plots
+Outlier detection using box plots
+Correlation analysis using heatmaps
+Interpretation of insights from each visualization
+All plots were automatically saved to an outputs/ directory to ensure reproducibility.
+
+Iris Dataset – Key Findings:
+Dataset is clean with no missing values
+Numerical features show clear distributions
+Species classes are balanced
+Petal length and petal width show strong correlation
+Petal-related features are most important for prediction
+This dataset demonstrated how EDA helps identify informative features in structured data.
+
+Netflix Dataset – Key Findings:
+Dataset contains missing values and mixed feature types
+Missing categorical values were handled explicitly
+Feature engineering was required to extract numeric duration
+Netflix has more movies than TV shows
+Most content was released after 2010
+Ratings like TV-MA and TV-14 dominate
+Minimal correlation between release year and duration
+This dataset highlighted how EDA adapts to real-world, imperfect data.
+
+Key Learnings:
+EDA is essential before applying machine learning
+Visualization reveals patterns not visible through raw data
+Clean academic datasets and real-world datasets require different handling
+Feature engineering is often necessary for real data
+Writing modular and reusable code improves analysis quality
+Debugging warnings and errors is part of real data work
+
+Outcome:
+By completing EDA on both Iris and Netflix datasets using a reusable and professional pipeline, a strong understanding of data patterns, feature behavior, and practical data analysis workflows was achieved. This task improved both analytical thinking and real-world coding practices, preparing for advanced AIML tasks and interviews.
